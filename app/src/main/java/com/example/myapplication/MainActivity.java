@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
 
                     }else{
 
-                        Toast.makeText(this, "Ingresar nombre", Toast.LENGTH_LONG).show();
+                        Toast.makeText(this, "Ingresar nombre", Toast.LENGTH_SHORT).show();
 
                     }
                 }

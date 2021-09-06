@@ -36,11 +36,12 @@ public class CalculoNotaActivity extends AppCompatActivity {
 
                     if(!et1.getText().toString().isEmpty() && et2.getText().toString().isEmpty() && et3.getText().toString().isEmpty() && et4.getText().toString().isEmpty() && et5.getText().toString().isEmpty()) {
 
-                        Intent i = new Intent(this, MainActivity.class);
-                        startActivity(i);
+                        Toast.makeText(this,"No hay vacios", Toast.LENGTH_SHORT).show();
+                        //Intent i = new Intent(this, MainActivity.class);
+                       // startActivity(i);
 
                     }else{
-                        Toast.makeText(this,"Colocar todas las notas", Toast.LENGTH_LONG).show();
+                        Toast.makeText(this,"falta al menos 1", Toast.LENGTH_SHORT).show();
                     }
 
 
